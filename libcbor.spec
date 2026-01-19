@@ -1,5 +1,5 @@
 %define major 0
-%define minor 12
+%define minor 13
 %define patch 0
 %define libname %mklibname libcbor
 %define devname %mklibname libcbor -d
@@ -7,7 +7,7 @@
 %define soname %{name}.%{major}.%{minor}.%{patch}
 
 Name:		libcbor
-Version:	0.12.0
+Version:	0.13.0
 Release:	1
 Summary:	CBOR protocol implementation for C
 URL:		https://github.com/PJK/libcbor
