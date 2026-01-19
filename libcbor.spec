@@ -17,6 +17,7 @@ Source0:	https://github.com/PJK/libcbor/archive/v%{version}/%{name}-%{version}.t
 Patch0:		libcbor-0.12.0-no-doxygen-timestamps.patch
 
 BuildRequires:	cmake
+BuildRequires:	make
 BuildRequires:	ninja
 BuildRequires:	gcc-c++
 BuildRequires:	pkgconfig(cmocka)
