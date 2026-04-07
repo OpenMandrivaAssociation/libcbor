@@ -7,7 +7,7 @@
 %define soname %{name}.%{major}.%{minor}.%{patch}
 
 Name:		libcbor
-Version:	0.13.0
+Version:	0.14.0
 Release:	1
 Summary:	CBOR protocol implementation for C
 URL:		https://github.com/PJK/libcbor
